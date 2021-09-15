@@ -1,1 +1,2 @@
-This is input file
+1
+29 2
