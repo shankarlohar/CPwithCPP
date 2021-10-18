@@ -48,11 +48,29 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 
 ### Algorithms I know
 - [Kadane’s algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)
+- [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+  ```cpp
+    // Binary Search template for implementation
+    int k = 0;
+    for (int b = n/2; b >= 1; b /= 2) {
+    while (k+b < n && array[k+b] <= x) k += b;
+    }
+    if (array[k] == x) {
+        // x found at index k 
+    }
+  ```
 - 
 
-
-### GCC Specific Features I know
--
+### STL and GCC Specific Features I know
+- C++ standard library functions based on binary search and work in logarithmic time:
+#### The functions assume that the array is sorted.
+```txt
+  • lower_bound(startpointer,endpointer,value) returns a pointer to the first array element whose value is at least x.
+  • upper_bound(startpointer,endpointer,value) returns a pointer to the first array element whose value is larger than x.
+  • equal_range(startpointer,endpointer,value) returns both above pointers.
+```
+ 
 
 ## Mathematics I know
 - Modular Arithmetic </br><img src = "https://slideplayer.com/slide/6658984/23/images/17/Rules+of+addition%2C+subtraction+and+multiplication.jpg" width = 400 />
@@ -82,6 +100,9 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - A time complexity is only an estimate
 of efficiency, because it hides the constant factors.
 - NP-hard problems are an important set of problems, for which no polynomial algorithm is known
+- A useful concept when analyzing sorting algorithms is an inversion: a pair of array elements (array[a],array[b]) such that a < b and array[a] > array[b], i.e., the elements are in the wrong order. 
+- Counting sort is a very efficient algorithm but it can only be used when the constant c is small enough, so that the array elements can be used as indices in the bookkeeping array.
+- An important use for binary search is to find the position where the value of a function changes
 
 
 ## Author
