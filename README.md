@@ -43,7 +43,21 @@ O(2^n)|This time complexity often indicates that the algorithm iterates through 
 O(n!)|This time complexity often indicates that the algorithm iterates through all permutations of the input elements.
 
 ### Data Structures I know
--
+- **vector** - Uses general arrays
+- **string** - Is a vector
+- **set** - Uses balanced binary tree [O(logn)]
+- **unordered_set** - Uses hashing [O(1)]
+- **multiset** - Allows multiple values in set, binary tree
+- **unordered_multiset** - Allows multiple values, hashing
+- **indexed_set** -  POLICY BASED data structure, set with indexes [O(logn) Not present in STL] 
+- **map** - Uses balanced binary tree [O(logn)]
+- **unordered_map** - Uses hashing [O(1)]
+- **bitset** - Array of bits, require less memory
+- **stack** - Can access only top element[O(1)]
+- **queue** - Can add at last an remove from front[O(1)]
+- **deque** - Vector with both fron and back push-pop, slower than vector
+- **priority_queue** - min and max heap [insertion and removal takes O(logn) retrival take O(1)]
+
 
 
 ### Algorithms I know
@@ -103,7 +117,9 @@ of efficiency, because it hides the constant factors.
 - A useful concept when analyzing sorting algorithms is an inversion: a pair of array elements (array[a],array[b]) such that a < b and array[a] > array[b], i.e., the elements are in the wrong order. 
 - Counting sort is a very efficient algorithm but it can only be used when the constant c is small enough, so that the array elements can be used as indices in the bookkeeping array.
 - An important use for binary search is to find the position where the value of a function changes
-
+-  An iterator is a variable that points to an element in a data structure.
+- If the value of a key is requested but the map does not contain it, the key is automatically added to the map with a default value. 
+- Heap structure is much simpler than a balanced binary tree.
 
 ## Author
 | [<img src="https://github.com/ShankarLohar.png?size=100" width=100><br><sub>ShankarLohar</sub>](https://github.com/ShankarLohar) |
