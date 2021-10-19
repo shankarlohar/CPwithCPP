@@ -74,6 +74,8 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
         // x found at index k 
     }
   ```
+- [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
+- [Memoization](https://en.wikipedia.org/wiki/Memoization)
 - 
 
 ### STL and GCC Specific Features I know
@@ -99,7 +101,11 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 
 
 ## Basic
-- 
+- Brute force: Getting Subsets and Permutations
+- Backtracking and Pruning
+- Meet in the middle search
+- Greedy Algorithms
+- Dynamic Programming
 
 ## Graph
 -
@@ -120,6 +126,7 @@ of efficiency, because it hides the constant factors.
 -  An iterator is a variable that points to an element in a data structure.
 - If the value of a key is requested but the map does not contain it, the key is automatically added to the map with a default value. 
 - Heap structure is much simpler than a balanced binary tree.
+-  Bit representation of 25 is 11001, which corresponds to the subset {0,3,4}
 
 ## Author
 | [<img src="https://github.com/ShankarLohar.png?size=100" width=100><br><sub>ShankarLohar</sub>](https://github.com/ShankarLohar) |
