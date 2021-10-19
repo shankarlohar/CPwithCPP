@@ -86,7 +86,14 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
   • upper_bound(startpointer,endpointer,value) returns a pointer to the first array element whose value is larger than x.
   • equal_range(startpointer,endpointer,value) returns both above pointers.
 ```
- 
+- The g++ compiler provides the following functions for counting bits:
+#### The above functions only support int numbers, there are also long long versions of the functions available with the suffix ll.
+```txt
+• __builtin_clz(x): the number of zeros at the beginning of the number
+• __builtin_ctz(x): the number of zeros at the end of the number
+• __builtin_popcount(x): the number of ones in the number
+• __builtin_parity(x): the parity (even or odd) of the number of ones
+```
 
 ## Mathematics I know
 - Modular Arithmetic </br><img src = "https://slideplayer.com/slide/6658984/23/images/17/Rules+of+addition%2C+subtraction+and+multiplication.jpg" width = 400 />
@@ -106,6 +113,10 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - Meet in the middle search
 - Greedy Algorithms
 - Dynamic Programming
+- Minimum/Maximum query: Sparse Table method
+- Sum queries: Prefix Sum Algorithm, Difference array - Binary indexed tree: Fenwick tree
+- Segment tree : Sum,Minimun,Maximum - Index compression
+- 
 
 ## Graph
 -
@@ -127,6 +138,13 @@ of efficiency, because it hides the constant factors.
 - If the value of a key is requested but the map does not contain it, the key is automatically added to the map with a default value. 
 - Heap structure is much simpler than a balanced binary tree.
 -  Bit representation of 25 is 11001, which corresponds to the subset {0,3,4}
+- Using the and operation, we can check if a number x is even because x & 1 = 0 if x is even, and x & 1 = 1 if x is odd. More generally, x is divisible by 2^k exactly when x & (2^k-1) = 0.
+- Note that x << k corresponds to multiplying x by 2^k, and x >> k corresponds to dividing x by 2^k rounded down to an integer.
+- A number of the form 1 << k has a one bit in position k and all other bits are zero, so we can use such numbers to access single bits of numbers. In particular, the kth bit of a number is one exactly when x & (1 << k) is not zero.
+-  The formula x | (1 << k) sets the kth bit of x to one, the formula x & ~(1 << k) sets the kth bit of x to zero, and the formula x ^ (1 << k) inverts the kth bit of x.
+- The formula x & (x-1) sets the last one bit of x to zero, and the formula x &-x sets all the one bits to zero, except for the last one bit. The formula x | (x-1) inverts all the bits after the last one bit.
+- A positive number x is a power of two exactly when x & (x-1) = 0.
+
 
 ## Author
 | [<img src="https://github.com/ShankarLohar.png?size=100" width=100><br><sub>ShankarLohar</sub>](https://github.com/ShankarLohar) |
