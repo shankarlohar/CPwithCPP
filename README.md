@@ -121,7 +121,7 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 ## Graph
 - Basics of a Graph : Keywords and Terms
 - Representation : Adjacency list, Matrix, Edge list
-- 
+- Traversal : Deapth-first Search - bipertiteness-cycles-connectivity check, Breadth-first Search [O(n+e)]
 
 ## Advanced
 -
@@ -146,6 +146,7 @@ of efficiency, because it hides the constant factors.
 -  The formula x | (1 << k) sets the kth bit of x to one, the formula x & ~(1 << k) sets the kth bit of x to zero, and the formula x ^ (1 << k) inverts the kth bit of x.
 - The formula x & (x-1) sets the last one bit of x to zero, and the formula x &-x sets all the one bits to zero, except for the last one bit. The formula x | (x-1) inverts all the bits after the last one bit.
 - A positive number x is a power of two exactly when x & (x-1) = 0.
+- It is difficult to find out if the nodes in a graph can be colored using k colors so that no adjacent nodes have the same color. Even when k = 3, no efficient algorithm is known but the problem is NP-hard
 
 
 ## Author
