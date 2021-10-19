@@ -119,7 +119,9 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - 
 
 ## Graph
--
+- Basics of a Graph : Keywords and Terms
+- Representation : Adjacency list, Matrix, Edge list
+- 
 
 ## Advanced
 -
