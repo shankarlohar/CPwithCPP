@@ -76,7 +76,12 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
   ```
 - [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
 - [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- 
+###### Graph Algorithms
+- [Bellman–Ford, SPFA algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
+- [Dijkstra’s algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Floyd–Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
+
+
 
 ### STL and GCC Specific Features I know
 - C++ standard library functions based on binary search and work in logarithmic time:
@@ -116,7 +121,6 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - Minimum/Maximum query: Sparse Table method
 - Sum queries: Prefix Sum Algorithm, Difference array - Binary indexed tree: Fenwick tree
 - Segment tree : Sum,Minimun,Maximum - Index compression
-- 
 
 ## Graph
 - Basics of a Graph : Keywords and Terms
