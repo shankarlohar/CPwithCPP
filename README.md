@@ -80,7 +80,8 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - [Bellman–Ford, SPFA algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 - [Dijkstra’s algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 - [Floyd–Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
-
+- [Kruskal’s algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) with [Union-find structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+- [Prim’s algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
 
 
 ### STL and GCC Specific Features I know
@@ -123,9 +124,9 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - Segment tree : Sum,Minimun,Maximum - Index compression
 
 ## Graph
-- Basics of a Graph : Keywords and Terms
+- Basics of a Graph and Tree : Keywords and Terms
 - Representation : Adjacency list, Matrix, Edge list
-- Traversal : Deapth-first Search - bipertiteness-cycles-connectivity check, Breadth-first Search [O(n+e)]
+- Traversal : Deapth-first Search - bipertiteness-cycles-connectivity check, Breadth-first Search [O(n+e)] | Preorder,Postorder,Inorder
 
 ## Advanced
 -
@@ -157,7 +158,7 @@ of efficiency, because it hides the constant factors.
 | [<img src="https://github.com/ShankarLohar.png?size=100" width=100><br><sub>ShankarLohar</sub>](https://github.com/ShankarLohar) |
 | :---: |
 
-## Reference Book
+## The CP Bible
 ```http
   https://cses.fi/book/book.pdf
 ```
