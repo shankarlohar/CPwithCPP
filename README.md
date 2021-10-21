@@ -127,6 +127,7 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - Basics of a Graph and Tree : Keywords and Terms
 - Representation : Adjacency list, Matrix, Edge list
 - Traversal : Deapth-first Search - bipertiteness-cycles-connectivity check, Breadth-first Search [O(n+e)] | Preorder,Postorder,Inorder
+- Directed Graph : Topological sort
 
 ## Advanced
 -
