@@ -82,6 +82,7 @@ O(n!)|This time complexity often indicates that the algorithm iterates through a
 - [Floyd–Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
 - [Kruskal’s algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) with [Union-find structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
 - [Prim’s algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
+- [Kosaraju’s algorithm](https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm)
 
 
 ### STL and GCC Specific Features I know
