@@ -19,6 +19,9 @@
 
 ## Time Complexity - Order of magnitude I know
 
+![image](https://user-images.githubusercontent.com/74100292/158448542-f4c5c2de-b646-41c6-8ed5-25939e2a6f84.png)
+
+
 
 Input size | Required time complexity : assuming a time limit of [1 second]
 -----------|-------------------------
