@@ -5,13 +5,13 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-#define int            long long int
+typedef long long      ll;
 #define F              first
 #define S              second
 #define pb             push_back
-#define si             set <int>
-#define vi             vector <int>
-#define pii            pair <int, int>
+typedef set <int>      si;
+typedef vector<int>    vi;
+typedef pair<int,int>  pii;
 #define vpi            vector <pii>
 #define vpp            vector <pair<int, pii>>
 #define mii            map <int, int>
@@ -43,7 +43,7 @@ void solve(){
 }
 
 
-int32_t main(){
+int main(){
    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
    #ifndef ONLINE_JUDGE
    freopen("MyInput.txt", "r", stdin);
