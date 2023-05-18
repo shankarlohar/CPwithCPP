@@ -39,16 +39,12 @@ void __f (const char* names, Arg1&& arg1, Args&&... args)
 
 // Solving the problem here...
 void solve(){
-
+   cout<<"aklsdfjda"<<endl;
 }
 
 
 int main(){
    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-   #ifndef ONLINE_JUDGE
-   freopen("MyInput.txt", "r", stdin);
-   freopen("MyOutput.txt", "w", stdout);
-   #endif
    clock_t z = clock();
    int t = 1;
    // cin >> t;
