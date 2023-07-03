@@ -16,6 +16,9 @@
 | __int128_t (g++)      |     128      | -10^38 ... 10^38     | -2x10^127 ... 2x10^127 - 1  |
 
 
+<img width="947" alt="image" src="https://github.com/shankarlohar/CPwithCPP/assets/74100292/7e4a488b-531f-4df2-9a23-3edb2a8581e4">
+
+
 
 ## Time Complexity - Order of magnitude I know
 
