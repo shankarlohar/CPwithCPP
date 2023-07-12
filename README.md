@@ -48,6 +48,9 @@ O(n^3)|A cubic algorithm often contains three nested loops.
 O(2^n)|This time complexity often indicates that the algorithm iterates through all subsets of the input elements.
 O(n!)|This time complexity often indicates that the algorithm iterates through all permutations of the input elements.
 
+<img width="899" alt="image" src="https://github.com/shankarlohar/CPwithCPP/assets/74100292/80dc77f1-8391-48d2-8118-92241e736b62">
+
+
 ### Data Structures I know
 - **vector** - Uses general arrays
 - **string** - Is a vector
